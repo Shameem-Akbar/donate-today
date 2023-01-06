@@ -1,20 +1,22 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.all-des{
+
+.all-des {
     color: #757575;
     font-weight: 400;
     font-size: 18px;
 }
 
-.all-h2{
+.all-h2 {
     font-weight: 900;
     font-size: 45px;
     padding-bottom: 25px;
 }
+
 /* button styles */
-.all-btn{
+.all-btn {
     background-color: #f55560;
     color: white;
     border: none;
@@ -26,14 +28,15 @@
     cursor: pointer;
     margin-top: 30px;
 }
-.all-btn:hover{
+
+.all-btn:hover {
     background-color: rgb(15, 238, 238);
     color: black;
 }
 
 /* Header Styles */
-.bg-image{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(images/donation0.jpg);
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/donation0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
@@ -42,32 +45,34 @@
     text-align: center;
     padding: 200px 230px;
 }
-.bg-des{
+
+.bg-des {
     font-weight: 400;
     font-size: 18px;
     color: white;
     margin: 10px 160px 20px 160px;
 }
-h1{
+
+h1 {
     font-weight: 800;
     font-size: 80px;
 }
 
 /* Donate today Styles */
 
-.donate-today{
+.donate-today {
     text-align: center;
     margin: 130px 350px 0px 350px;
 }
 
 
-.money-div{
+.money-div {
     display: flex;
     padding: 45px 0px;
     justify-content: center;
 }
 
-.money{
+.money {
     margin-right: 20px;
     height: 120px;
     width: 120px;
@@ -79,13 +84,14 @@ h1{
     color: #756f6f;
     cursor: pointer;
 }
-.money:hover{
-   color: #f55560;
-   border-color: #f55560;
-   background-color: rgb(247, 204, 245);
+
+.money:hover {
+    color: #f55560;
+    border-color: #f55560;
+    background-color: rgb(247, 204, 245);
 }
 
-.donate-input{
+.donate-input {
     margin-bottom: 10px;
     border: none;
     color: #b7b7b7;
@@ -93,50 +99,78 @@ h1{
 }
 
 /* Donate plan Styles */
-.donate-title{
-    margin: 130px 450px 40px 450px; 
+.donate-title {
+    margin: 130px 450px 40px 450px;
     text-align: center;
 }
-.donate-container{
+
+.donate-container {
     display: flex;
     gap: 24px;
     margin: 0px 100px 0px 100px;
     padding: 30px;
     justify-content: space-between;
 }
-.donate-1{
+
+.donate-1 {
     background-color: rgb(225, 237, 237);
     border-radius: 5px;
-    padding: 50px 15px ;
+    padding: 50px 15px;
     width: 360px;
     height: 252px;
-    
+
 }
-.donate-2{
+
+.donate-2 {
     background-color: #e2c2c4;
     border-radius: 5px;
-    padding: 50px 15px ;
+    padding: 50px 15px;
     width: 360px;
     height: 252px;
 }
-.donate-3{
+
+.donate-3 {
     background-color: rgb(216, 246, 187);
     border-radius: 5px;
-    padding: 50px 15px ;
+    padding: 50px 15px;
     width: 360px;
     height: 252px;
 }
-.plan-title{
+
+.plan-title {
     font-weight: 900;
     font-size: 28px;
     padding-bottom: 25px;
     margin: 15px 0px;
 }
 
+/* des img styles */
+
+.des-img {
+    display: flex;
+    margin: 130px 100px 0px 135px;
+}
+
+.img-1 {
+    height: 450px;
+    width: 450px;
+    border-radius: 5px
+}
+
+.img-div-1 {
+    margin-right: 150px;
+}
 
 
+.des {
+    margin: 10px 180px 0px 0px;
+}
 
+.des-1 {
+    margin: 10px 180px 0px 150px;
+}
 
+/* update styles */
 
 
 
@@ -172,20 +206,22 @@ h1{
 
 
 /* footer styles */
-footer{
+footer {
     background: rgb(0, 0, 14);
     height: 25vh;
     text-align: center;
     font-size: 20px;
-   
+
 }
-.foot-title{
+
+.foot-title {
     color: #f55560;
     padding: 40px 250px 20px 250px;
     font-weight: 700;
     font-size: 36px;
 }
-.foot-des{
+
+.foot-des {
     color: #d8d8d8;
     font-weight: 400;
     font-size: 16px;
