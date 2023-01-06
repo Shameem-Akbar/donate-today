@@ -172,13 +172,53 @@ h1 {
 
 /* update styles */
 
+.update{
+    text-align: center;
+    margin: 130px 380px 0px 380px;
+}
+
+.emails{
+    margin: 60px 350px 130px 350px;
+    background-color: #ffc7c7;
+    display: flex;
+    height: 70px;
+    padding: 40px 200px;
+}
 
 
+.btn-extra{
+    height: 62px;
+    width: 400px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background-color: #cbc8c9;
+    padding-left: 25px;
+    
+    
+}
 
+.btn-extra::placeholder{
+    color: #615656;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.btn-extra-1{
+    background-color: #f55560;
+    color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0;
+    height: 64px;
+    padding: 18px 25px 18px 25px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
 
-
-
-
+.btn-extra-1:hover{
+    background-color: rgb(15, 238, 238);
+    color: black;
+}
 
 
 
