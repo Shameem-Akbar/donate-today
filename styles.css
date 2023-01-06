@@ -115,26 +115,28 @@ h1 {
 .donate-1 {
     background-color: rgb(225, 237, 237);
     border-radius: 5px;
-    padding: 50px 15px;
+    padding: 50px 25px;
     width: 360px;
     height: 252px;
-
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 
 .donate-2 {
     background-color: #e2c2c4;
     border-radius: 5px;
-    padding: 50px 15px;
+    padding: 50px 25px;
     width: 360px;
     height: 252px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 
 .donate-3 {
     background-color: rgb(216, 246, 187);
     border-radius: 5px;
-    padding: 50px 15px;
+    padding: 50px 25px;
     width: 360px;
     height: 252px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 
 .plan-title {
@@ -172,38 +174,39 @@ h1 {
 
 /* update styles */
 
-.update{
+.update {
     text-align: center;
     margin: 130px 380px 0px 380px;
 }
 
-.emails{
+.emails {
     margin: 60px 350px 130px 350px;
-    background-color: #ffc7c7;
+    background-color: #ffd8d8;
     display: flex;
     height: 70px;
     padding: 40px 200px;
 }
 
 
-.btn-extra{
+.btn-extra {
     height: 62px;
     width: 400px;
     border-radius: 5px 0px 0px 5px;
     border: none;
     background-color: #cbc8c9;
     padding-left: 25px;
-    
-    
+
+
 }
 
-.btn-extra::placeholder{
+.btn-extra::placeholder {
     color: #615656;
     font-size: 20px;
     font-weight: 400;
-    
+
 }
-.btn-extra-1{
+
+.btn-extra-1 {
     background-color: #f55560;
     color: white;
     border: none;
@@ -215,35 +218,10 @@ h1 {
     cursor: pointer;
 }
 
-.btn-extra-1:hover{
+.btn-extra-1:hover {
     background-color: rgb(15, 238, 238);
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer styles */
 footer {
